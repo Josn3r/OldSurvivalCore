@@ -1,0 +1,81 @@
+# Josn3r Roleplay Core (J3RP Core)
+# Created by Josn3r - MineSpazio Survival Earth.
+
+config:
+  plugin-licence: 'MSpazio001'
+  protections:
+    item:
+      displayName: '&6Protection:'
+      description:
+      - '&7Coloca esta protección en cualquier'
+      - '&7parte y no podrán romper tu terreno!'
+    config:
+      costPerSize: 1750.0
+      minSize: 10
+      maxSize: 128
+      join-protection:
+        messages: false
+        actionbar: true
+        title: false
+      leave-protection:
+        messages: false
+        actionbar: true
+        title: false
+  jobs:
+    join-work-area:
+      notify: true
+      actionbar-notify: true
+      title-notify: true
+      sound: ENTITY_EXPERIENCE_ORB_PICKUP
+    leave-work-area:
+      notify: true
+      actionbar-notify: true
+      title-notify: true
+      sound: ENTITY_EXPERIENCE_ORB_PICKUP
+      cancel-job-when-leave: true
+    missions:  
+      woodcutter:
+        examplemission:
+          menuSlot: 12
+          amount: 10
+          payment: 7.50
+          timeToFinish: 40 #Seconds
+          needJobLevel: 1
+        bestmission:
+          menuSlot: 14
+          amount: 512
+          payment: 400.00
+          timeToFinish: 120 #Seconds
+          needJobLevel: 4
+      miner:
+        examplemission:
+          menuSlot: 12
+          mineralType: 'GOLD_ORE'
+          amount: 10
+          payment: 5.00
+          timeToFinish: 40 # Seconds
+          needJobLevel: 1
+        diamondMission:
+          menuSlot: 14
+          mineralType: 'DIAMOND_ORE'
+          amount: 25
+          payment: 15.00
+          timeToFinish: 40 # Seconds
+          needJobLevel: 1
+  levels:
+  - '1 : 150 : 7 : 1250'
+  - '2 : 250 : 12 : 3240'
+  - '3 : 350 : 19 : 7600'
+  - '4 : 450 : 31 : 16430'
+  - '5 : 550 : 52 : 34320'
+  - '6 : 650 : 86 : 67940'
+  - '7 : 750 : 143 : 131560'
+  - '8 : 850 : 239 : 250950'
+  - '9 : 950 : 397 : 468460'
+  - '10 : 1050 : 662 : 867220'
+  - '11 : 1150 : 1103 : 1588320'
+  - '12 : 1250 : 1838 : 2885660'
+  - '13 : 1350 : 3063 : 5207100'
+  - '14 : 1450 : 5105 : 9342150'
+  - '15 : 1550 : 10224 : 18684300'
+  - '16 : 1650 : 0 : 0'  

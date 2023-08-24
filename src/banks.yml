@@ -1,0 +1,17 @@
+# MineSpazio Roleplay Core
+# Created by Josn3r - MineSpazio Survival Earth.
+
+banks:
+  bank-name: SpazioBank
+  bank-balance: 0.0
+  bank-owners: {}
+  bank-options:
+    bank-actions:
+      disponibles: 10000
+      starting-price: 70000
+      multiplier-price: 2.34
+  comissions:
+    deposit: 1.55
+    withdraw: 3.11
+    transfer: 2.12
+  bank-balance-trasactions: {}

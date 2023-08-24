@@ -1,0 +1,91 @@
+# Josn3r Roleplay Core (J3RP Core)
+# Created by Josn3r - MineSpazio Survival Earth.
+
+prefix: '&7[&6MSRP&7] » '
+
+messages:
+  protections:
+    join-protection:
+      message: '&fYou entered the protection of &e<OWNER>'
+      actionbar: '&fYou entered the protection of &e<OWNER>'
+      title: '&6&l<OWNER> : &fYou entered his protection'
+    leave-protection:
+      message: '&fYou leave the protection of &e<OWNER>'
+      actionbar: '&fYou leave the protection of &e<OWNER>'
+      title: '&6&l<OWNER> : &fYou leave his protection'
+  jobs:
+    already-have-job: '&cYou already have a job, quit your current job first or get VIP rank to have two!'
+    already-have-job2: '&cYou already have a second job, so you dont have more space, quit one first!'
+    join-job: '&aCongratulations&f, you are now a work of &e<JOB>'
+    global-menu:
+      title: '<JOB>'
+      join-job:
+        displayname: '&eJoin to Job!'
+        description:
+        - '&7Click to enter this job.'
+        - '&7Be part of the team!'
+    woodcutter:
+      displayname: 'Woodcutter'
+      prefix: '&c[NPC] &fPedro'
+      menu:
+        mission-selector:
+          displayname: '&fCorta &e<AMOUNT> &ftroncos'
+          description:
+          - '&7Cut <AMOUNT> logs for Jorge!'
+          - ' '
+          - '&eNeed Cut: &f<AMOUNT> Logs'
+          - '&ePayment: &f$<PAYMENT>'
+    miner:
+      displayname: 'Miner'
+      prefix: '&c[NPC] &fJorge'
+      menu:
+        mission-selector:
+          displayname: '&fMine &e<AMOUNT> &fof &e<TYPE>'
+          description:
+          - '&7Mine <AMOUNT> of <TYPE> for Pedro!'
+          - ' '
+          - '&eNeed Mine: &f<AMOUNT> of <TYPE>'
+          - '&ePayment: &f$<PAYMENT>'
+    harvester:
+      displayname: 'Harvester'
+      prefix: '&c[NPC] &fMaria'
+      menu:
+        mission-selector:
+          displayname: '&fMine &e<AMOUNT> &fof &e<TYPE>'
+          description:
+          - '&7Mine <AMOUNT> of <TYPE> for Pedro!'
+          - ' '
+          - '&eNeed Mine: &f<AMOUNT> of <TYPE>'
+          - '&ePayment: &f$<PAYMENT>'
+    joinZone: 
+      message: '&fYou entered the work area of &e<JOB>&f.'
+      actionbar: '&fYou entered the work area of &e<JOB>&f.'
+      title: '&e&l<JOB> : &fYou entered the work area.'
+    leaveZone: 
+      message: '&cYou leave the work area of &e<JOB>&c.'
+      actionbar: '&cYou leave the work area of &e<JOB>&c.'
+      title: '&e&l<JOB> : &cYou leave the work area.'
+  levels:
+    try-level-up:
+      sendCenteredMessage: true
+      not-enough-exp:
+      - '&c&lERROR'
+      - '&7You dont have enough experience to level up.'
+      - '&7You currently only have &a<EXP> &7experience.'
+      - '&e<EXP_NEEDED>&7 experience points are required.'
+      - '&7You need &c<CALC_EXP> &7more XP points to level up.'
+      not-enough-money:
+      - '&c&lERROR'
+      - '&7You dont have enough money to level up.'
+      - '&7Your current balance is &a<BALANCE>&7.'
+      - '&7The next level requires &e$<COST> &7coins. '
+      - '&7You need &c<CALC_MONEY> &7more coins to level up.'
+    level-up:
+      sendCenteredMessage: true
+      message:
+      - ' '
+      - '&7&m--------------------&7[ &a&lLEVEL UP &7]&7&m--------------------'
+      - '&fCongratulations, you have risen to the level &a&l<LEVEL>&f.'
+      - '&7&m--------------------&7[ &a&lLEVEL UP &7]&7&m--------------------'
+      - ' '
+      lastLevel: '&aYou are already in the last level, you are incredible!'

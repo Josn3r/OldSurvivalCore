@@ -1,0 +1,9 @@
+# MineSpazio Roleplay Core
+# Created by Josn3r - MineSpazio Survival Earth.
+
+config:
+  members-with-job: 0
+  location-job:
+    corner1: null
+    corner2: null
+  blocks-to-regen: {}

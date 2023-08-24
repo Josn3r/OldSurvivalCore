@@ -1,0 +1,41 @@
+name: MSRP
+main: club.josn3rdev.pl.MSRP
+version: 0.01
+author: Josn3r
+softdepend: [GPS,WorldGuard,Vault,PlaceholderAPI,DecentHolograms]
+loadBefore: [GPS,WorldGuard,Vault,PlaceholderAPI,DecentHolograms]
+api-version: 1.16
+commands:
+  minespazioroleplay:
+    aliases: [minespaziorp,msroleplay,msrp]
+  jobs:
+    aliases: [job,trabajo,empleo]
+  protection:
+    aliases: [proteccion,ps,prote,protes]
+  openBank:
+    aliases: [obsprosk]
+  hora:
+    aliases: [hour,tiempo,fecha,date]
+  setstats:
+    aliases: [setest,setstatistic,setexp,setlevel]
+  levelup:
+    aliases: [subirnivel,buylevel,uplevel,comprarnivel,newlevel]
+  departament:
+    aliases: [dep,departamento,depa]
+  comprar:
+    aliases: [adquirir]
+  vender:
+    aliases: [oferta]
+  aceptar:
+    aliases: [accept]
+  alquilar:
+    aliases: [rentar,rentals,renta]
+  opciones:
+    aliases: [options]
+  hospital:
+    aliases: [hospital]
+  marry:
+    aliases: [bodas,casarse]
+  clan:
+    aliases: [clanes,clans,bandas,banda,mafia,mafias]
+  
